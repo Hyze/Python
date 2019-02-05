@@ -2,6 +2,8 @@ import os
 import time
 import random
 
+os.system('mkdir -p "$XDG_RUNTIME_DIR"')
+
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
 
