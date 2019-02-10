@@ -1,2 +1,4 @@
 .idea
-
+/venv/*
+python.zip
+__pycache__/
