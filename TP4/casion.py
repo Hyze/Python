@@ -71,7 +71,6 @@ class MyImageViewerWidget(QFrame):
 
 
     def casino(self):
-        print('start')
 
         symbols = ["#", "?", "~", "$"]  # The symbols on the reels
 
