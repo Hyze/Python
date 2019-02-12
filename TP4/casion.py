@@ -22,9 +22,6 @@ class MyImageViewerWidget(QFrame):
         self.ui = casino.Ui_Form()
         self.ui.setupUi(self)
         self.index=0
-        self.timerG = QTimer()
-        self.timerC = QTimer()
-        self.timerD = QTimer()
         self.ui.Gauche.setFixedSize(300,300)
         self.ui.Centre.setFixedSize(300,300)
         self.ui.Droite.setFixedSize(300,300)
