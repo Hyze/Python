@@ -71,7 +71,7 @@ class MyMainWindow(QMainWindow):
         self.Clear.setShortcut("C")
         self.Clear.triggered.connect(self.clear)
         self.Color=QAction("&Color",self)
-        self.Color.setShortcut("Ctrl+J")
+
 
         self.couleur = QColor(255,0,0)
         pixmap = QPixmap(15,15)
